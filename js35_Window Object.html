@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Window Object</title>
+</head>
+<body>
+
+    <button onclick="objConfirm()">Click</button>
+    
+    <script>
+
+        // alert().....displays the alert box containing message with ok button.
+        function objAlert(){
+            alert("Save your information")
+        }
+
+        //confirm()... displays the confirm dialog box containing message with ok and cancel button.
+        function objConfirm(){
+        let result= confirm("Are you filup in your information")
+        document.write(result);
+        }
+
+        //displays a dialog box to get input from the user.
+        function obtPrompt(){
+          let result= prompt("write your name");
+          document.write(result)
+        }
+
+        //opens the new window.
+        function objOpen(){
+            open()
+        }
+
+        // closes the current window
+        function objClose(){
+            close()
+        }
+
+        //setTimeout()...performs action after specified time like calling function,evaluating  expressions etc
+        setTimeout(function(){
+            alert("after alert 5 mins")
+        },10000)
+  
+    </script>
+    
+</body>
+</html>

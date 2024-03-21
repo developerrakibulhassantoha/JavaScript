@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String Methods</title>
+</head>
+<body>
+    <script>
+        // it provide the value present at the specified index.
+       
+         var country="Bangladesh";
+         document.write(
+            country.charAt(1)
+         );
+
+         // it provides the position of a char value present in the given string
+
+         var country="Bangladesh";
+         document.write(
+            country.IndexOf("a")
+         );
+
+         //it provide the position to a char value present in the given string by searching a character from the last position
+
+         var country="Bangladesh";
+         document.write(
+            country.lastIndexOf("a")
+         );
+
+         // it provides a combination of two or more strings.
+
+         var country1="Bangladesh";
+         var country2="cox`s bazar";
+          document.write(
+            country1.concat(country2)
+         );
+
+         // it is used to fetch the part of the given string on the basis of the specified index
+
+         var country="Bangladesh";
+         document.write(
+            country.substr(4,9)
+         );
+     
+         // it is used to fetch the part of the given string on the basis of the specified index
+
+         var country="Bangladesh";
+         document.write(
+            country.substring(2,9)
+
+         );
+      
+         // it is used to fetch the part of the given string on the basis of the specified index
+           
+         var country="Bangladesh";
+         document.write(
+            country.substring(0,9)
+         );
+        
+         //It converts the given string into lowercase letter.
+
+         var country="Bangladesh";
+         document.write(
+            country.toLocaleLowerCase()
+         );
+
+        //It converts the given into uppercase letter.
+
+         var country="Bangladesh";
+         document.write(
+            country.toUpperCase()
+         );
+
+         // It trim the White space from the left and right side of the string.
+
+         var country1="   Bangladesh   ";
+         var country2=country1.trim()
+         document.write(
+            country2.length
+        );
+
+
+
+    </script>
+    
+</body>
+</html>

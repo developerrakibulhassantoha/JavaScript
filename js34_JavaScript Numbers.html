@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Numbers</title>
+</head>
+<body>
+    <script>
+            
+        //isFinite().....It determines whether the given value is a finite number.
+        var num=5.22;
+        document.write(
+            Number.isFinite(num)
+        )
+ 
+        //isinteger()......It determines whether the given value is an integer
+         var num=85.5;
+         document.write(
+            Number.isInteger(num)
+         )
+
+         //parseInt().......It converts the given string into an integer number
+         var num="58.5";
+         document.write(
+            Number.parseInt(num)
+         );
+
+         //parseFload().... Int converts the given string into an integer number.
+         var num="58.25";
+         document.write(
+            Number.parseFloat(num)
+         );
+
+        //toFixid()....It return the string that represent a number with exact digits after a decimal point.
+         var num=58.558641058242244;
+         document.write(
+            num.toFixed(5)
+         );
+
+         //toString().....It returns the given number in the form to string
+         var num=58.558641058242244;
+         document.write(
+            num.toString(5)
+         );
+
+    </script>
+</body>
+</html>

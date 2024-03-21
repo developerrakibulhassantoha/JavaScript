@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Find Find Index</title>
+</head>
+<body>
+    <script>
+        //array find
+        var numArray=[25,85,98,100];
+        var result=numArray.find(function(value){
+            return value>25
+        });
+        document.write(result);
+
+        // array find index
+        var numArray=[25,85,98,100];
+        var result=numArray.findIndex(function(value){
+            return value>85
+        });
+        document.write(result);
+    </script>
+    
+</body>
+</html>
